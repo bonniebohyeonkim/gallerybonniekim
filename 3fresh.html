@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>How Fresh Can Be Fresh</title>
+    <style>
+      /* Set default styles for all elements */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Set default font styles */
+      html {
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      /* Set background color for the whole page */
+      body {
+        background-color: gray;
+        color: #333;
+        line-height: 1.5;
+      }
+
+      /* Style the gallery container */
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+
+      /* Style the gallery images */
+      .gallery img {
+        width: calc(25% - 0.5rem);
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        margin-bottom: 1rem;
+      }
+      
+      /* Style the gallery images on hover */
+      .gallery img:hover {
+        filter: brightness(80%);
+      }
+
+      /* Add responsive padding */
+      @media (max-width: 768px) {
+        .gallery {
+          padding: 0.5rem;
+        }
+        .gallery img {
+          width: calc(50% - 0.5rem);
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .gallery img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="gallery">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/mainfresh.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/fresh n2.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/11.11.jpeg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/11.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/22.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/fresh4.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/fresh 2.jpg">
+        <img src="/Users/bonniebohyeonkim/Desktop/WEBSITE/website building images/4.fresh/jpg-2.jpeg">
+  </body>
+</html>
